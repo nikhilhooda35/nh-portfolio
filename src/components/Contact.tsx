@@ -1,4 +1,4 @@
-import { GitHub,Linkedin, Globe } from 'react-feather';
+import { Linkedin } from 'react-feather';
 const Contact =()=>{
     return(
         <div id="contact-me" className="hero animated fadeInLeft" style={{animationDelay: '.4s'}}>

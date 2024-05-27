@@ -22,6 +22,7 @@ const Projects =()=>{
         } else {
             setFilter(projectData);
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [currentFilter])
     
 

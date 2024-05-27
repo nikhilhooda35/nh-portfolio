@@ -3,7 +3,7 @@ const Hero =()=>{
         <div id="about-me" className="hero animated fadeInLeft " style={{animationDelay: '.4s'}}>
 
             <div className="profile-img">
-                <img src="/nh.png"></img>
+                <img src="/nh.png" alt="Nikhil Hooda"></img>
             </div>
 
             <p className="sub" style={{color: 'var(--green)'}}>Hi, my name is</p>
