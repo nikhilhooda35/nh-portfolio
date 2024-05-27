@@ -121,7 +121,7 @@ ul.skills-list li::before {
   min-height: 60vh;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: var(--regular);
