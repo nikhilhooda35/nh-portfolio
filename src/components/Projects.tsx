@@ -26,13 +26,13 @@ const Projects =()=>{
     }, [currentFilter])
     
 
-    const handleFilter = (tool: string) =>{
-        if (tool !==""){
-            let res = projectData.filter(f=> f.tools.split(" ").includes(tool))
-            setFilter(res);
-            setCurrentFilter(currentFilter+ " " + tool);
-        }
-    }
+    // const handleFilter = (tool: string) =>{
+    //     if (tool !==""){
+    //         let res = projectData.filter(f=> f.tools.split(" ").includes(tool))
+    //         setFilter(res);
+    //         setCurrentFilter(currentFilter+ " " + tool);
+    //     }
+    // }
     const handleCloseFilter = (tool: string) =>{
         let filters = currentFilter
         let newFS = filters.split(" ").filter((fs: string)=> fs!==tool)
