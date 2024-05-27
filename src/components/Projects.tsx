@@ -7,7 +7,7 @@ const Projects =()=>{
             title: 'My Portfolio',
             desc: 'Crafted my current portfolio using react.',
             tools: '#react #javascript #typescript #html #css',
-            github: 'https://github.com/nikhilhooda35',
+            github: 'https://github.com/nikhilhooda35/nh-portfolio',
             link: '/',
         },
 
