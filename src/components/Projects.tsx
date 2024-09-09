@@ -10,7 +10,13 @@ const Projects =()=>{
             github: 'https://github.com/nikhilhooda35/nh-portfolio',
             link: '/',
         },
-
+        {
+            title: 'Medicare',
+            desc: 'Medicare is a telemedicine platform developed using the MERN stack',
+            tools: '#react #typescript #html #css #nodejs #expressjs #mongodb',
+            github: '/',
+            link: 'https://medicare-rho.vercel.app/',
+        }
     ];
     const [filtered, setFilter] = useState(projectData);
     const [currentFilter, setCurrentFilter] = useState<string>("");
