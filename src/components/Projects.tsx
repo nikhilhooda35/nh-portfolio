@@ -23,6 +23,13 @@ const Projects = () => {
             tools: '#react #typescript #html #css #nodejs #expressjs #mongodb',
             github: 'https://github.com/nikhilhooda35/Shoppy',
             link: 'https://shoppy-olive.vercel.app/',
+        },
+        {
+            title: 'InstantBooks',
+            desc: 'InstantBooks is an online bookstore project built using Django framework',
+            tools: '#django #python #html #css #sqlite',
+            github: 'https://github.com/nikhilhooda35/InstantBooks',
+            link: '/',
         }
     ];
 
