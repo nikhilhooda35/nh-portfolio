@@ -17,6 +17,13 @@ const Projects =()=>{
             github: '/',
             link: 'https://medicare-rho.vercel.app/',
         },
+        {
+            title: 'Shoppy',
+            desc: 'Shoppy is a Admin platform developed using the MERN stack',
+            tools: '#react #typescript #html #css #nodejs #expressjs #mongodb',
+            github: 'https://github.com/nikhilhooda35/Shoppy',
+            link: 'https://shoppy-olive.vercel.app/',
+        }
 
     ];
     const [filtered, setFilter] = useState(projectData);
