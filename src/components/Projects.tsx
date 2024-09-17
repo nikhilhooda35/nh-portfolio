@@ -29,7 +29,7 @@ const Projects = () => {
             desc: 'InstantBooks is an online bookstore project built using Django framework',
             tools: '#django #python #html #css #sqlite',
             github: 'https://github.com/nikhilhooda35/InstantBooks',
-            link: '/',
+            link: '',
         }
     ];
 
@@ -80,9 +80,12 @@ const Projects = () => {
                                             <GitHub className="link-1" color="var(--sublime)" size={18} strokeWidth={1.5} />
                                         </a>
                                     }
+                                    {
+                                        i.link !== "" &&
                                     <a href={i.link} target="_blank" rel="noopener noreferrer">
                                         <ExternalLink className="link-3" color="var(--sublime)" size={18} strokeWidth={1.5} />
                                     </a>
+                                    }   
                                 </div>
                             </div>
                             <div className="card-title">{i.title}</div>
